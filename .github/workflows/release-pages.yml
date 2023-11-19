@@ -27,6 +27,11 @@ jobs:
           run_install: |
             args: []
 
+      - name: Install and Build 🔧
+        run: |
+          pnpm install
+          pnpm build
+
       - name: Upload Artifacts 🔺
         uses: actions/upload-artifact@v1
         with:
@@ -45,11 +50,6 @@ jobs:
         uses: actions/download-artifact@v1
         with:
           name: dist
-          
-      - name: Install and Build 🔧
-        run: |
-          pnpm install
-          pnpm build
 
       - name: Deploy pages 🚀
         uses: JamesIves/github-pages-deploy-action@v4
