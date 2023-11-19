@@ -9,9 +9,8 @@ permissions:
   contents: write
 
 jobs:
-  build-and-deploy:
-    concurrency: ci-${{ github.ref }} # Recommended if you intend to make multiple deployments in quick succession.
-    runs-on: ubuntu-latest
+  build:
+    runs-on: windows-latest
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
@@ -28,12 +27,17 @@ jobs:
           run_install: |
             args: []
 
-      - name: Install and Build 🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
+  deploy:
+    concurrency: ci-${{ github.ref }}
+    needs: [build]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install and Build 🔧
         run: |
           pnpm install
           pnpm build
 
-      - name: Deploy 🚀
+      - name: Deploy pages 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: docs
