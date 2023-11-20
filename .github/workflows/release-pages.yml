@@ -1,10 +1,9 @@
 name: release-pages
 
 on:
-  workflow_run:
-    workflows: ['release-please']
-    types:
-      - completed
+  push:
+    tags:
+      - v*.*.*
 
 permissions:
   contents: write
