@@ -1,9 +1,10 @@
 name: release-pages
 
 on:
-  push:
-    branches:
-      - main
+  workflow_run:
+    workflows: ['release-please']
+    types:
+      - completed
 
 permissions:
   contents: write
@@ -16,7 +17,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4 
+        uses: actions/setup-node@v4
         with:
           node-version: 16.x
 

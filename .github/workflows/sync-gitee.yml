@@ -1,9 +1,11 @@
 name: sync-gitee
+
 on:
   workflow_run:
     workflows: ['release-pages']
     types:
       - completed
+
 jobs:
   sync-to-gitee:
     runs-on: ubuntu-latest
