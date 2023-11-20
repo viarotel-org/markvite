@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/viarotel-org/markvite/compare/v1.0.0...v1.0.1) (2023-11-20)
+
+
+### Performance Improvements
+
+* ♻️ Update workflows ([fb48eeb](https://github.com/viarotel-org/markvite/commit/fb48eebe2259de2303fcda46f3cf4fff4e7d8e65))
+
 ## 1.0.0 (2023-11-19)
 
 
