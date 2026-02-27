@@ -63,11 +63,14 @@ npm run build
 - [electron-pdf](https://github.com/fraserxu/electron-pdf)
 - [unocss](https://unocss.dev)
 
-## 支持项目
+## 捐赠项目
 
-> 如果该项目帮到你的话，可以请我喝杯咖啡，让我更有精神完善该项目 😛
+如果该项目帮到你的话，可以请我喝杯咖啡，让我更有精神完善该项目 😛
 
 <div style="display:flex;">
-  <img src="./src/assets/pay-weixin.jpg" alt="viarotel-wepay" style="width: 30%;">
-  <img src="./src/assets/pay-ali.jpg" alt="viarotel-alipay" style="width: 30%;">
+  <img src="https://cdn.jsdelivr.net/gh/viarotel/resources@latest/donate/viarotel-wepay.png" alt="viarotel-wepay" width="30%">
+  <img src="https://cdn.jsdelivr.net/gh/viarotel/resources@latest/donate/viarotel-alipay.png" alt="viarotel-alipay" width="30%">
+  <a href="https://www.paypal.com/paypalme/viarotel" target="_blank" rel="noopener noreferrer">
+    <img src="https://cdn.jsdelivr.net/gh/viarotel/resources@latest/donate/viarotel-paypal.png" alt="viarotel-paypal" width="30%">
+  </a>
 </div>

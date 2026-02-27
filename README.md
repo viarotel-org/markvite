@@ -57,11 +57,14 @@ This project would not be possible without the following open source projects:
 - [electron-pdf](https://github.com/fraserxu/electron-pdf)
 - [unocss](https://unocss.dev)
 
-## Support the Project
+## Donate
 
-> If this project has helped you, you can buy me a coffee to keep me energized and improving the project! 😛
+If this project has helped you, consider buying me a coffee to keep me motivated for further improvements 😛
 
 <div style="display:flex;">
-  <img src="./src/assets/pay-weixin.jpg" alt="viarotel-wepay" style="width: 30%;">
-  <img src="./src/assets/pay-ali.jpg" alt="viarotel-alipay" style="width: 30%;">
+  <img src="https://cdn.jsdelivr.net/gh/viarotel/resources@latest/donate/viarotel-wepay.png" alt="viarotel-wepay" width="30%">
+  <img src="https://cdn.jsdelivr.net/gh/viarotel/resources@latest/donate/viarotel-alipay.png" alt="viarotel-alipay" width="30%">
+  <a href="https://www.paypal.com/paypalme/viarotel" target="_blank" rel="noopener noreferrer">
+    <img src="https://cdn.jsdelivr.net/gh/viarotel/resources@latest/donate/viarotel-paypal.png" alt="viarotel-paypal" width="30%">
+  </a>
 </div>
